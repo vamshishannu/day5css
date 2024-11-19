@@ -20,91 +20,122 @@ overflow-y: scroll;
 display: none;
 
 }*/
+.d1{
+border: 2px solid brown;
+width: 400px;
+height: 250px;
+border-radius: 20px;
+text-align: left;
+background-color: bisque;
 
-    .d1 {
-      border: 2px solid black;
-      height: 300px;
-      width: 300px;
-      margin-left: 25px;
-      margin-right:25px;
-      text-align: center;
-      color: blue;
-      text-transform: capitalize;
-    }
-#l1{
-    border: 2px solid blue;
-      height: 100px;
-      width: 100px;
-      margin-left: 95px;
+
 }
-
-    .d2{
-display: none;
-background-color: lightblue;
-text-align: justify;
-margin-top:20px;
+    
+img{
+    border-radius:30px;
+margin-left: 240px;
+margin-top:  -70px;
+}
+.c1{
+border: 2px solid crimson;
 width: 300px;
- }
- .d1:hover+.d2 {
-display: inline-block;
-
-
- }
- .d3
- {
-border: 2px solid black;
-margin-top: -305px;
-margin-left: 550px;
-width: 300px;
-height: 300px;
 text-align: center;
-color: lightblue;
- }
-
-
-.d4{
-
-border: 2px solid black;
-width: 100px;
-height: 100px;
-margin-left: 95px;
-
+margin-left: 50px;
 }
-#l2{
+.d2{
+margin-top: 50px;
+text-align: center;
+background-color: azure;
+border: 2px dotted red;
 display: none;
-background-color: lightblue;
-margin-left: 500px;
-width: 300px;
 
 
 }
-.d3:hover+#l2{
+.c1:hover~.d2{
+
+    display: inline-block;
+}
+.d3{
+border: 2px solid red;
+margin: -250px 20px 200px 500px;
+width: 400px;
+height: 250px;
+background-color: lightcoral;
+border-radius: 20px;
+color: blue;
+text-shadow: 0cqmax;
+}
+img{
+
+    border-radius: 40px;
+    margin-left: 240px;
+    margin-top:-110px;
+}
+.c2{
+border: 2px solid black;
+width: 300px;
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 50px;
+
+}
+.d4{
+background-color: aquamarine;
+margin-top: 55px;
+border: 2px dotted red;
+display: none;
+text-align: center;
+
+
+}
+.c2:hover~.d4{
+    
 display: inline-block;
 
 }
-
-
 
   </style>
+
+
+
+
   <body>
-    <div class="d1">
-        PERSONAL INFO
-      <div id="l1"><img src="./luffy.jpeg" height="100px" width="100px" alt="luffy" /></div>
-      <h2 style="color: red">LUFFY</h2>
-  </div>
-    <div class="d2">
-      Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of
-      being a pirate since childhood from the influence of his idol and mentor
-      Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue
-      Sea to the Grand Line in search of the legendary treasure, One Piece, to
-      succeed Gol D. Roger as "King of the Pirates"
-    </div>
-<div class="d3">PERSONAL INFO
-<div class="d4"><img src="./robin.jpg" width="100px" height="100px"/></div>
-<h2>ROBIN</h2>
+    <div class="d1">Personal information
+<ul>
+    <li>Name:Monkey.D.Luffy</li>
+    <li>age:19</li>
+    <li>Title:YONKO/SUN GOD</li>
+    <li>favourite food:meat</li>
+</ul>
+<img src="./luffy.jpeg" width="150" height="150" alt="luffy"/>
+
+<p class="c1">Hover here to view more about luffy</p>
+<div class="d2">
+  <h3>  Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of being a pirate since childhood from the influence of his idol and mentor Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue Sea to the Grand Line in search of the legendary treasure, One Piece, to succeed Gol D. Roger as "King of the Pirates"</h3>
+
 </div>
-<div id="l2">In the series, Robin is introduced as an antagonist, but eventually becomes the seventh member of the Straw Hat Pirates crew, captained by Monkey D. Luffy. Acting as the group's archaeologist and historian, Robin is a Devil Fruit user who possess the power of the Flower-Flower Fruit, allowing her to sprout replicas of her limbs, and later her entire body, from any surface. As the only survivor of the island of Ohara, Robin is the only known living person in the world of One Piece with the ability to read the ancient stones called Poneglyphs, something considered threatening by the World Government, which forbids the practice.</div>
+</div>
+<div class="d3">Personal information
+<ul>
+    <li>Name:Red-Haired-Shanks</li>
+    <li>age:40</li>
+    <li>Title:YONKO</li>
+    <li>favourite:Alchol</li>
+</ul>
+<img src="./shanks.jpeg" width="150" height="150" alt="shanks"/>
+
+<p class="c2">Hover here to view more about shanks</p>
+<div class="d4">
+<h3>"Red-Haired" Shanks,[9] commonly known as just "Red Hair",[12] is the chief[5] of the Red Hair Pirates[2] and one of the Four Emperors that rule over the New World.[3] Having sailed with the legendary Roger Pirates since he was an infant, Shanks would begin his pirate career on their ship as an apprentice alongside Buggy, before forming his own crew following Roger's death</h3>
 
 
-  </body>
+
+
+
+</div>
+
+
+
+</div>
+</body>
 </html>
